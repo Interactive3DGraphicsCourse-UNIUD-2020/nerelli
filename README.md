@@ -12,6 +12,6 @@ Ho convertito le environment map che ho trovato su internet (latlong), in cubema
 Per comprimere le texture, environmentMap e convertire queste ultime da formati .hdr a .png ho usato Photoshop, lo stesso per il tone mapping. Per calcolare una irradianceMap ho usato una funzionalità su cmftStudio.
 
 ![Image from the project: cat on the road](images/gatto-strada.jpg)
-![Image from the project: cat on the road](images/gatto-piazza.jpg)
+![Image from the project: cat on the road](images/gatto-piazza.png)
 # Credits
 Il modello del gatto e le sua texture default vengono da <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">sketchfab</a>.
