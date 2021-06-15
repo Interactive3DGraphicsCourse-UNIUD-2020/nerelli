@@ -1,17 +1,14 @@
-# ProductVisualization - Nerelli
+# ProductConfigurator - Nerelli
 
 ![Image from the project: there's a cat, developed in three.js](images/gatto.jpg)
 
-# productVisualizator Nerelli
+Ho scelto di prendere <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">questo modello</a>, in quanto molto semplice e leggero.
+Ho aggiunto due environmentMap prese da <a href="https://hdrmaps.com/">hdrmaps</a> e altre 5 che ho scattato io usando l'applicazione di Google Street View che consente di creare foto a 360° in un recente viaggio in Puglia.
+Ho esteso due shader usati a lezione: lo shader usato nell'esempio glossyReflections per far scalare la roughness sfruttando le mipmap e sulla base di questo ho creato due materiali metallici variandone cspec e roughness: rame e oro.
+Ho convertito le environment map (latlong) in cubemaps usando <a href="https://jaxry.github.io/panorama-to-cubemap/">uno strumento online</a>.
+Per comprimere le texture, environmentMap e convertire le ultime da formati .hdr a .png ho usato Photoshop. Per generare le irradianceMap ho usato il software open source <a href="https://github.com/dariomanesku/cmftStudio">cmftStudio</a>.
 
-Ho scelto di prendere questo <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">modello</a>, in quanto molto semplice e leggero.
-Ho compresso le texture e aggiunto il modello su three.js con GLTFLoader, ho aggiunto due luci direzionali regolabili da uno slider che fanno riflettere il materiale direttamente da uno shader. Ho aggiunto due environmentMap e le corrispondenti irradianceMap.
-Ho costruito un secondo materiale (rame) in Substance Painter, ho allocato il corretto valore per la riflettanza di Fresnel.
-Ho provato con diversi modelli prima di scegliere questo, ma infine ho scelto questo in quanto gli altri erano un po' troppo complessi.
-Ho convertito le environment map che ho trovato su internet (latlong), in cubemaps usando <a href="https://jaxry.github.io/panorama-to-cubemap/">uno strumento online</a>.
-Per comprimere le texture, environmentMap e convertire queste ultime da formati .hdr a .png ho usato Photoshop, lo stesso per il tone mapping. Per calcolare una irradianceMap ho usato una funzionalità su cmftStudio.
-
-![Image from the project: cat on the road](images/gatto-strada.jpg)
-![Image from the project: cat on the road](images/gatto-piazza.jpg)
+![Image from the project: cat on Valle D'Itria](images/gatto-dorato-Puglia.png)
+![Image from the project: cat on the road](images/gatto-rame-piazza.jpg)
 # Credits
-Il modello del gatto e le sua texture default vengono da <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">sketchfab</a>.
+Il modello del gatto e le sue texture default vengono da <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">sketchfab</a>.
