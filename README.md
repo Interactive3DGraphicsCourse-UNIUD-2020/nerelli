@@ -9,6 +9,6 @@ Ho convertito le environment map (latlong) in cubemaps usando <a href="https://j
 Per comprimere le texture, environmentMap e convertire le ultime da formati .hdr a .png ho usato Photoshop. Per generare le irradianceMap ho usato il software open source <a href="https://github.com/dariomanesku/cmftStudio">cmftStudio</a>.
 
 ![Image from the project: cat on Valle D'Itria](images/gatto-dorato-Puglia.png)
-![Image from the project: cat on Valle D'Itria](images/gatto-rame-piazza.jpg)
+![Image from the project: cat on Valle D'Itria](images/gatto-rame-piazza.png)
 # Credits
 Il modello del gatto e le sue texture default vengono da <a href="https://sketchfab.com/3d-models/cat-statue-4f32fb314d5246babd75994e5894796e">sketchfab</a>.
